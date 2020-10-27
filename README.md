@@ -314,31 +314,31 @@ for (auto it = knn_matches.begin(); it != knn_matches.end(); ++it)
 If the distribution of nearborhood size is large, detector is robust to the scale change and rotation. Therefore, it can be said that detector which has large neighborhood size like BRISK, ORB and SIFT, performs well with zoomed in or out pictures, as well as rotated ones.
 
 1. HARRIS
-![HARRIS](./neighbourSize/HARRIS.png)
+![HARRIS](/neighbourSize/HARRISimage.png)
 
 
 2. SHITOMASI
-![SHITOMASI](./neighbourSize/SHITOMASI.png)
+![SHITOMASI](/neighbourSize/SHITOMASIimage.png)
 
 
 3. FAST
-![FAST](./neighbourSize/FAST.png)
+![FAST](/neighbourSize/FASTimage.png)
 
 
 4. BRISK
-![BRISK](./neighbourSize/BRISK.png)
+![BRISK](/neighbourSize/BRISKimage.png)
 
 
 5. ORB
-![ORB](./neighbourSize/ORB.png)
+![ORB](/neighbourSize/ORBimage.png)
 
 
 6. AKAZE
-![AKAZE](./neighbourSize/AKAZE.png)
+![AKAZE](/neighbourSize/AKAZEimage.png)
 
 
 7. SIFT
-![SIFT](./neighbourSize/SIFT.png)
+![SIFT](/neighbourSize/SIFTimage.png)
 
 
 ## MP.8 Performance Evaluation 2
@@ -444,7 +444,7 @@ Log the time it takes for keypoint detection and descriptor extraction. The resu
 |  +BRISK       | 				 	 	 |1.17		            |
 |  +BRIEF       | 				 	 	 |0.56		            |
 |  +FREAK       | 				 	 	 |29.13		            |
-|  +SIFT        | 	`			 	 	 |55.17		            |
+|  +SIFT        | 				 	 	 |55.17		            |
 
 
 
